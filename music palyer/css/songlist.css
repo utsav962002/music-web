@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Courgette&display=swap');
+
+#demo {
+    margin-left: 25px;
+    margin-top: 4px;
+    display: inline-block;
+    color: rgb(109, 110, 165);
+    background-color: rgba(229, 226, 226);
+    border-radius: 15px;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    padding: 30px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 90px;
+    box-shadow: black;
+    cursor: auto;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.4);
+}
+.listsongh1{
+    font-family: 'Baloo 2', cursive;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+    width: 13rem;
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+    color: rgb(110, 8, 97);
+    background-color: rgb(255, 255, 255);
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.2);
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.4);
+}

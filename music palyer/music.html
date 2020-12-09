@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c0d8e8c17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/musicplayerstyle.css">
+    <link rel="stylesheet" href="../music palyer/css/songlist.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="grid-container">
+
+    <!-- song list section ----------------------------------------------------------------------------- -->
+    <div class="grid-item">
+        <h1 class="listsongh1">list of songs</h1>
+        <p id="demo"> </p>
+    </div>
+
+
+
+
+
+    <!-- music player ------------------------------------------------------------------------------------->
+    <div class="main_div grid-item">
+        <div class="music_container">
+            <h2 id="title">1</h2>
+            <h3 id="artist">art 1</h3>
+            <div class="img_container">
+                <img src="images/1.jpg" alt="img 1">
+            </div>
+            <audio src="music/1.mp3"></audio>
+
+            <!-- progress bar -->
+
+            <div class="progressbar_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0:00</div>
+                    <div id="duration">0:00</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <!-- controls -->
+            <div class="music_controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+
+            </div>
+        </div>
+
+
+        <!-- javascript for music player -->
+        <script src="../javascript/musicplayer.js"></script>
+    </div>
+
+
+<!-- div for song list click and play ------------------------------------------------------------ -->
+
+
+    <div class="grid-item">
+        <h1>
+            div for song list 
+            just click and play
+
+        </h1>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
